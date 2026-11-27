@@ -1,0 +1,6 @@
+rules:
+  - id: classroom-no-eval
+    languages: [javascript, typescript]
+    message: Avoid eval; use safe parsing or explicit operations.
+    severity: ERROR
+    pattern: eval(...)
